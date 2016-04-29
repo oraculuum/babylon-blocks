@@ -33,9 +33,106 @@ Building a babylon block involves choosing a block to build, designing the block
 
 1. Choose a babylon block to adopt from our "Adopt a Block List" at the bottom of this readme or add a Babylon Block of your choosing to the "Adopt a Block List" so everyone knows you're working on it.
 
-   e.g. [BABYLON.Mesh.CreateSphere(name, segments, diameter, scene, updatable)](http://www.sokrate.fr/documentation/babylonjs/BABYLON.Mesh.html)
+   We'll build the [BABYLON.Mesh.CreateSphere(name, segments, diameter, scene, updatable)](http://www.sokrate.fr/documentation/babylonjs/BABYLON.Mesh.html) block as an example.
 
-2. Design your block using the [Block Factory](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html).  A video tutorial showing how to use the Block Factory can be found [here](https://www.youtube.com/watch?v=s2_xaEvcVI0).
+2. Design your block using the [Block Factory](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html).  A video tutorial showing how to use the Block Factory can be found [here](https://www.youtube.com/watch?v=s2_xaEvcVI0).  Design your block using a similar naming convention, colour scheme, and layout as the create sphere block [here](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html#zhutu3) so that your block fits in with the other babylon blocks and doesn't feel left out.  Also, avoid using punctuation in your block's wording, since punctuation does not translate well to other languages.
+
+  Once your block is designed, copy and paste the __JSON__ definition of your block from the Block Factory's "Language Code: __JSON__" section into the block definition file "babylon-blocks/blockly/blocks/babylon.js" and wrap your __JSON__ definition in the following code:
+  
+  ```javascript
+   Blockly.Blocks['your_blocks_name'] = {
+      init: function() {
+         this.jsonInit(
+            // your block's JSON definition goes here 
+         );
+      }
+   };
+   ```
+   
+   The final block definition for our create sphere block will look like the following.  Don't forget to add a "helpUrl" (to the documentation you'll create in step 5) and a "tooltip" (feel free to put "Block created By: Your Name or Alias"):
+   
+  ```javascript
+   Blockly.Blocks['babylon_mesh_create_sphere'] = {
+      init: function() {
+         this.jsonInit(
+            {
+              "type": "babylon_mesh_create_sphere",
+              "message0": "create Sphere with %1 name %2 %3 segments %4 diameter %5 scene %6 updatable %7 %8 side orientation %9",
+              "args0": [
+                {
+                  "type": "input_dummy"
+                },
+                {
+                  "type": "field_input",
+                  "name": "NAME",
+                  "text": "sphere1"
+                },
+                {
+                  "type": "input_dummy"
+                },
+                {
+                  "type": "input_value",
+                  "name": "SEGMENTS",
+                  "check": "Number"
+                },
+                {
+                  "type": "input_value",
+                  "name": "DIAMETER",
+                  "check": "Number"
+                },
+                {
+                  "type": "input_value",
+                  "name": "SCENE",
+                  "check": "BABYLON.Scene"
+                },
+                {
+                  "type": "field_dropdown",
+                  "name": "UPDATABLE",
+                  "options": [
+                    [
+                      "false",
+                      "false"
+                    ],
+                    [
+                      "true",
+                      "true"
+                    ]
+                  ]
+                },
+                {
+                  "type": "input_dummy"
+                },
+                {
+                  "type": "field_dropdown",
+                  "name": "SIDE_ORIENTATION",
+                  "options": [
+                    [
+                      "front",
+                      "FRONTSIDE"
+                    ],
+                    [
+                      "back",
+                      "BACKSIDE"
+                    ],
+                    [
+                      "double",
+                      "DOUBLESIDE"
+                    ]
+                  ]
+                }
+              ],
+              "inputsInline": true,
+              "output": "BABYLON.Mesh",
+              "colour": 212,
+              "tooltip": "Create a new sphere. Block created by: nichol999",
+              "helpUrl": "http://www.example.com/"
+            }
+         );
+      }
+   };
+   ```
+   
+3. 
 
 ## Project History
 
