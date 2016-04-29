@@ -19,7 +19,7 @@ Babylon Blocks is an open source project to combine these two awesome technologi
 
 ## Installing Babylon Blocks
 
-Installing Babylon Blocks on your local machine so you can contribute or incorporate it into your own projects is easy.
+Installing Babylon Blocks on your local machine so you can contribute or incorporate it into your own projects is easy.  If you're an advanced user, create a new branch, commit your changes, and create a pull request to merge your changes with the master branch.  If you're a less advanced user, just click "Download ZIP" in the upper right corner and unzip the files to a location of your choosing.  Once you've downloaded the code, drag and drop the file "path-to-your-download/babylon-blocks/blockly/index.html" from a file folder into the URL bar of your web browser.  Boom.  You're done.  
 
 ## Contributing to Babylon Blocks
 
@@ -37,7 +37,7 @@ Building a babylon block involves choosing a block to build, designing the block
 
 2. Design your block using the [Block Factory](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html).  A video tutorial showing how to use the Block Factory can be found [here](https://www.youtube.com/watch?v=s2_xaEvcVI0).  Design your block using a similar naming convention, colour scheme, and layout as the create sphere block [here](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html#zhutu3) so that your block fits in with the other babylon blocks and doesn't feel left out.  Also, avoid using punctuation in your block's wording, since punctuation does not translate well to other languages.
 
-  Once your block is designed, copy and paste the __JSON__ definition of your block from the Block Factory's "Language Code: __JSON__" section into the block definition file "babylon-blocks/blockly/blocks/babylon.js" and wrap your __JSON__ definition in the following code:
+  Once your block is designed, copy and paste the __JSON__ definition of your block from the Block Factory's "Language Code: __JSON__" section into the block definition file "path-to-your-download/babylon-blocks/blockly/blocks/babylon.js" and wrap your __JSON__ definition in the following code:
   
   ```javascript
    Blockly.Blocks['your_blocks_name'] = {
