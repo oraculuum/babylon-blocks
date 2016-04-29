@@ -23,7 +23,8 @@ Installing Babylon Blocks on your local machine so you can contribute or incorpo
 
 If you're an advanced user, create a new branch and check it out, commit your changes, and create a pull request to merge your changes with the master branch.  
 
-If you're a less advanced user, just click "Download ZIP" in the upper right corner and unzip the files to a location of your choosing.  Then, when you're ready to submit your changes, you can use the "Branch: master" drop-down above to create a new branch and switch to it, use the edit icon above the file you wish to edit to add your changes, use the "Commit changes" button below the file you edited to commit your changes, and finally use the "New pull request" button above to submit your changes for review and approval. 
+If you're a less advanced user, just click "Download ZIP" in the upper right corner and unzip the files to a location of your choosing.  Then, when you're ready to submit your changes, you can use the "Branch: master" drop-down above to create a new branch and switch to it, use the edit icon above the file you wish to edit to add your changes, use the "Commit changes" button below the file you edited to commit your changes, and finally use the "New pull request" button above to submit your changes for review and approval.
+
 Once you've downloaded the code, drag and drop the file "path-to-your-download/babylon-blocks/blockly/index.html" from a file folder into the URL bar of your web browser.  Boom.  You're up and running.  
 
 ## Contributing to Babylon Blocks
