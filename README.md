@@ -31,11 +31,11 @@ __Building a Babylon Block__
 
 Building a babylon block involves choosing a block to build, designing the block using the [Block Factory](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html), defining a code generator for the block, adding the block to the blockly toolbox, and creating documentation for the block so others can use it.
 
-1. Choose a Babylon Block to adopt from our "Adopt a Block List" at the bottom of this readme or add a Babylon Block of your choosing to the "Adopt a Block List" so everyone knows you're working on it.
+1. Choose a babylon block to adopt from our "Adopt a Block List" at the bottom of this readme or add a Babylon Block of your choosing to the "Adopt a Block List" so everyone knows you're working on it.
 
    e.g. [BABYLON.Mesh.CreateSphere(name, segments, diameter, scene, updatable)](http://www.sokrate.fr/documentation/babylonjs/BABYLON.Mesh.html)
 
-2. 
+2. Design your block using the [Block Factory](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html).  A video tutorial showing how to use the Block Factory can be found [here](https://www.youtube.com/watch?v=s2_xaEvcVI0).
 
 ## Project History
 
@@ -43,4 +43,4 @@ Babylon Blocks was started as a side-project by Oraculuum's founder, John Nichol
 
 ## Adopt a Block List
 
-* Build a Babylon Block using the instructions below.
+* ~~[BABYLON.Mesh.CreateSphere(name, segments, diameter, scene, updatable)](http://www.sokrate.fr/documentation/babylonjs/BABYLON.Mesh.html)~~ (adopted by: nichol999)
