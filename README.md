@@ -24,14 +24,17 @@ Installing Babylon Blocks on your local machine so you can contribute or incorpo
 ## Contributing to Babylon Blocks
 
 __There are two ways you can help__
-* Build a Babylon Block using the instructions below.
-* Donate $5 [here](https://developers.oraculuum.com/babylonblocks/demo/index.html) so we can pay someone to build a Babylon Block in your name.
+* Build a babylon block using the instructions below (if everyone builds one block we can have this done in no time!).
+* Donate $5 [here](https://developers.oraculuum.com/babylonblocks/demo/index.html) so we can pay someone to build a Babylon Block in your name.  The text "Dedicated to: your name here (or alter ego)" will be appended to the end of your block's tooltip... so that every time someone hovers over your block to learn more about it... they'll be forced to reflect on your greatness!
 
 __Building a Babylon Block__  
 
-Building a Babylon Block involves choosing a block to build, designing the block using the Block Factory, defining a code generator for the block, and adding the block to the blockly toolbox.
+Building a babylon block involves choosing a block to build, designing the block using the [Block Factory](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html), defining a code generator for the block, adding the block to the blockly toolbox, and creating documentation for the block so others can use it.
 
 1. Choose a Babylon Block to adopt from our "Adopt a Block List" at the bottom of this readme or add a Babylon Block of your choosing to the "Adopt a Block List" so everyone knows you're working on it.
+
+   e.g. [BABYLON.Mesh.CreateSphere(name, segments, diameter, scene, updatable)](http://www.sokrate.fr/documentation/babylonjs/BABYLON.Mesh.html)
+
 2. 
 
 ## Project History
