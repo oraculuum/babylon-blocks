@@ -138,7 +138,7 @@ Building a babylon block involves choosing a block to build, designing the block
    };
    ```
    
-3. 
+3. Define a code generator for the block.  The [Block Factory](https://blockly-demo.appspot.com/static/demos/blockfactory/index.html) generates a starter code generator for you.  Just copy and paste the __JavaScript__ generator stub for your block from the Block Factory's "Generator stub: __JavaScript__" section into the generator definition file "path-to-your-download/babylon-blocks/blockly/generators/javascript/babylon.js".
 
 ## Project History
 
