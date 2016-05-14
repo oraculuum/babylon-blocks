@@ -55,7 +55,7 @@ Building a babylon block involves choosing a block to build, designing the block
    };
    ```
    
-   The final block definition for our create sphere block will look like the following.  Don't forget to add a "helpUrl" (to the documentation you'll create in step 5) and a "tooltip" (feel free to put "Block created By: Your Name or Alias"):
+   The final block definition for our create sphere block will look like the following.  Don't forget to add a "helpUrl" (to the documentation you'll create in step 5) and a "tooltip" (feel free to put "Block created By: Your Name or Alter Ego"):
    
   ```javascript
    Blockly.Blocks['babylon_mesh_create_sphere'] = {
